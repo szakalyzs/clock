@@ -2,7 +2,7 @@
 
 function clock() {
     const timeObj = new Date();
-    const timeStr = timeObj.toLocaleTimeString('hu');
+    const timeStr = timeObj.toLocaleTimeString();
     return timeStr;
 }
 
